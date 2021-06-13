@@ -6915,3 +6915,4 @@ Received Import Request.
   path: Assets/Art/Font/Chalkduster.ttf
   artifactKey: Guid(1f1e8192bcd061949ad126df75acd893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Art/Font/Chalkduster.ttf using Guid(1f1e8192bcd061949ad126df75acd893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7f886676a7c9858f6a6547ae9cecf2') in 0.407548 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
