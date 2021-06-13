@@ -62,7 +62,7 @@ public class pauseMenu : MonoBehaviour
     public void LoadMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("MainMenu");
     }
 
     //quits the game
@@ -75,7 +75,7 @@ public class pauseMenu : MonoBehaviour
     //reloads the scene
     public void Retry()
     {
-        SceneManager.LoadScene("Level01");
+        SceneManager.LoadScene("MainLevel");
         Time.timeScale = 1f;
         deathScreen.SetActive(false);
     }

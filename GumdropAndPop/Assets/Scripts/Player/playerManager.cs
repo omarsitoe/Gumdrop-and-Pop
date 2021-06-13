@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class playerManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public bool isDead = false;
+    
+    void Start() {
+        isDead = false;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    
+    void Kill() {
+        isDead = true;
+        Destroy(gameObject);
     }
 }
