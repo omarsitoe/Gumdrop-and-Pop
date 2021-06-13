@@ -11,6 +11,8 @@ public class gumdrop : MonoBehaviour
     public float moveSpeed = 5.0f;
     public bool pulling = false;
 
+    public scoreManager sm;
+
     bool justReleased = false;
     Rigidbody2D rb;
     Rigidbody2D rbPop;
@@ -82,5 +84,12 @@ public class gumdrop : MonoBehaviour
                 rbPop.velocity = popDrag;
             }
         }   
+    }
+
+    void OnTriggerEnter2D(Collider2D col) {
+        if(col.tag == "Collectible") {
+            // Increase score count by 100
+            sm.AddScore(100);
+        }
     }
 }
