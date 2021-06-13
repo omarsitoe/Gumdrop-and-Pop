@@ -32,8 +32,8 @@ public class scoreManager : MonoBehaviour
         
 
         // DEBUGGING
-        if(Input.GetKeyDown("space"))
-            AddScore(100);
+        //if(Input.GetKeyDown("space"))
+            //AddScore(100);
     }
 
     public void AddScore(int toAdd) {

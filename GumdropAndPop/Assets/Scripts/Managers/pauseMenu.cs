@@ -13,7 +13,7 @@ public class pauseMenu : MonoBehaviour
 
     void Start()
     {
-        pm = player.GetComponent<playerManager>();
+        pm = player.GetComponentInChildren<playerManager>();
         deathScreen.SetActive(false);
         pauseMenuUI.SetActive(false);
     }
