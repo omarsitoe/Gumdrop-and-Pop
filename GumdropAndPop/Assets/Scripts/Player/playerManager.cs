@@ -11,7 +11,7 @@ public class playerManager : MonoBehaviour
         isDead = false;
     }
     
-    void Kill() {
+    public void Kill() {
         isDead = true;
         Destroy(gameObject);
     }
